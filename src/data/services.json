@@ -1,0 +1,129 @@
+[
+  {
+    "id": "S0001",
+    "title": "Mobile & Web development",
+    "icon": "monitorCellphone",
+    "subtitle": "We design and develop beautiful, lightning fast, scalable, and marketing-focused websites & mobile apps tailored to grow your business.",
+    "services": [
+      {
+        "title": "Single Page Application Development (SPA)",
+        "icon": "reactIcon",
+        "subtitle": "Unlike we used to develop web apps, the bring to the table new method for developing web apps, our Single Page Web Apps are fast, less than one second load time 0% refresh time, we increase your company performance with our SPA Web Systems."
+      },
+      {
+        "title": "Progressive Web App (PWA)",
+        "icon": "flashAlertOutline",
+        "subtitle": "Our Progressive Web Apps (PWA) will give a native-like performance from your browser"
+      },
+      {
+        "title": "Hybrid Mobile App Development",
+        "icon": "tabletCellphone",
+        "subtitle": "Our Hybrid Mobiel Apps will eliminate the need for native development, no more need to spend on developing two different apps for Andriod and ISO, we handle this just with one technology and reduce your costs."
+      },
+      {
+        "title": "Websites",
+        "icon": "webIcon",
+        "subtitle": "The websites we build are not just another website, we combine the speed SPA website with the serverside rendering methods to get the best of both of them, that is why our websites are faster and more modern than other websites in the market"
+      }
+    ]
+  },
+  {
+    "id": "S0002",
+    "title": "API development",
+    "icon": "apiIcon",
+    "subtitle": "We implement internal and external API development solutions that preemptively solve issues regarding communications, content creation & management, data sharing, business logic, and microservices.",
+    "services": [
+      {
+        "title": "Custom API Integrations",
+        "icon": "reactIcon",
+        "subtitle": "We can build a custom API to enhance your current off-the-shelf solution or integrate a third-party API that enables your software solution to seamlessly interface with other apps, devices, and business systems"
+      },
+      {
+        "title": "Custom API Implementations",
+        "icon": "flashAlertOutline",
+        "subtitle": "Our Progressive Web Apps (PWA) will give a native-like performance from your browser"
+      },
+      {
+        "title": "Automated API Testing",
+        "icon": "tabletCellphone",
+        "subtitle": "Our engineers and quality assurance (QA) specialists use automated unit testing, functional testing, and load testing best practices to check the performance & functionality of mission-critical business apps."
+      }
+    ]
+  },
+  {
+    "id": "S0003",
+    "title": "Cloud Infrastructure",
+    "icon": "cloudLockOutline",
+    "subtitle": "We develop cloud-native apps with domain-driven designs using powerful DevOps tools, including Node.js, Python, Kubernetes, Docker, Gitlab CI/CD, and many others, enabling automated management experiences across the public, private, and hybrid cloud.",
+    "services": [
+      {
+        "title": "Startup Business Cloud Setup",
+        "icon": "reactIcon",
+        "subtitle": "Unlike we used to develop web apps, the bring to the table new method for developing web apps, our Single Page Web Apps are fast, less than one second load time 0% refresh time, we increase your company performance with our SPA Web Systems."
+      },
+      {
+        "title": "Cloud Migration",
+        "icon": "flashAlertOutline",
+        "subtitle": "Our Progressive Web Apps (PWA) will give a native-like performance from your browser"
+      }
+    ]
+  },
+  {
+    "id": "S0004",
+    "title": "IT products and consulting",
+    "icon": "desktopClassic",
+    "subtitle": "We guide you to purchase the best IT products from the cheapest stores and we will help you install them smoothly.",
+    "services": [
+      {
+        "title": "Custom computer build",
+        "icon": "reactIcon",
+        "subtitle": "Unlike we used to develop web apps, the bring to the table new method for developing web apps, our Single Page Web Apps are fast, less than one second load time 0% refresh time, we increase your company performance with our SPA Web Systems."
+      },
+      {
+        "title": "IT products installation",
+        "icon": "flashAlertOutline",
+        "subtitle": "Our Progressive Web Apps (PWA) will give a native-like performance from your browser"
+      }
+    ]
+  },
+  {
+    "id": "S0005",
+    "title": "Professional Training",
+    "icon": "schoolOutline",
+    "subtitle": "We believe providing professional training for our community will help us discover talents from students and employees.",
+    "services": [
+      {
+        "title": "Course training",
+        "icon": "reactIcon",
+        "subtitle": "Unlike we used to develop web apps, the bring to the table new method for developing web apps, our Single Page Web Apps are fast, less than one second load time 0% refresh time, we increase your company performance with our SPA Web Systems."
+      },
+      {
+        "title": "Program training",
+        "icon": "flashAlertOutline",
+        "subtitle": "Our Progressive Web Apps (PWA) will give a native-like performance from your browser"
+      }
+    ],
+    "process": [
+      {
+        "title": "Design the training program",
+        "icon": "humanMaleBoard",
+        "subtitle": "Before doing anything we spend a good amount of time understanding our client's needs and requirements."
+      },
+      {
+        "title": "Start the training program",
+        "icon": "accountConvert",
+        "subtitle": "We are an agile team, we continue to deliver and continue to update our projects"
+      },
+      {
+        "title": "Take exams and quizzes",
+        "icon": "autoFix",
+        "subtitle": "We maintain your system and we continue to update and add features as you wish"
+      },
+      {
+        "title": "Get certified",
+        "icon": "autoFix",
+        "subtitle": "We maintain your system and we continue to update and add features as you wish"
+      }
+    ]
+  }
+]
