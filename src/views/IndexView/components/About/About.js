@@ -30,7 +30,7 @@ const Hero = () => {
               )} 0%)`,
             }}
           >
-            Technology & IT
+            Software & IT
           </Typography>
         </Typography>
       </Box>

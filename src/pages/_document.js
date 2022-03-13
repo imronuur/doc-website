@@ -20,7 +20,7 @@ export default class MyDocument extends Document {
           <meta charSet="utf-8" />
           <link
             rel="shortcut icon"
-            href="https://assets.maccarianagency.com/favicons/thefront/favicon.ico"
+            href="https://res.cloudinary.com/imran6099/image/upload/v1647157847/Final_hawfop.png"
           />
           <meta name="theme-color" content="#ffffff" />
           <meta
@@ -37,10 +37,7 @@ export default class MyDocument extends Document {
             property="og:image"
             content="https://assets.maccarianagency.com/screenshots/the-front/social.png"
           />
-          <meta
-            property="og:title"
-            content="theFront | UI Kit by Maccarian Agency."
-          />
+          <meta property="og:title" content="Silicon | IT & Software Partner" />
           <meta
             property="og:description"
             content="A modern design system for your new landing and web pages."
@@ -98,11 +95,12 @@ MyDocument.getInitialProps = async (ctx) => {
   ctx.renderPage = () =>
     originalRenderPage({
       // Take precedence over the CacheProvider in our custom _app.js
-      enhanceComponent: (Component) => (props) => (
-        <CacheProvider value={cache}>
-          <Component {...props} />
-        </CacheProvider>
-      ),
+      enhanceComponent: (Component) => (props) =>
+        (
+          <CacheProvider value={cache}>
+            <Component {...props} />
+          </CacheProvider>
+        ),
     });
 
   const initialProps = await Document.getInitialProps(ctx);

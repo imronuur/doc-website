@@ -89,7 +89,7 @@ const NavItem = ({ title, id, items, colorInvert = false }) => {
             <Grid item key={i} xs={items.length > 12 ? 6 : 12}>
               <Button
                 component={'a'}
-                href={p.href}
+                href={`/service/${p.href}`}
                 fullWidth
                 sx={{
                   justifyContent: 'flex-start',

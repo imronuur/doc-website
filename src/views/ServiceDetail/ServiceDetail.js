@@ -23,27 +23,6 @@ const ServiceDetail = ({ services }) => {
   const { id } = router.query;
   const currentService = services.find((service) => service.id === id);
 
-  const process = [
-    {
-      title: 'Collect requirements',
-      icon: 'humanMaleBoard',
-      subtitle:
-        "Before doing anything we spend a good amount of time understanding our client's needs and requirements.",
-    },
-    {
-      title: 'Agile development',
-      icon: 'accountConvert',
-      subtitle:
-        'We are an agile team, we continue to deliver and continue to update our projects. ',
-    },
-    {
-      title: 'Maintain',
-      icon: 'autoFix',
-      subtitle:
-        'We maintain your system and we continue to update and add features as you wish.',
-    },
-  ];
-
   const numbers = [
     {
       title: 99,
@@ -66,13 +45,13 @@ const ServiceDetail = ({ services }) => {
     <Box sx={{ overflowX: 'hidden' }}>
       <Main bgcolor={'background.paper'}>
         <Container>
-          <Advantages services={currentService.services} />
+          <Advantages services={currentService?.services || []} />
         </Container>
         <Container>
-          <Process process={currentService?.process || process} />
+          <Process process={currentService?.process || []} />
         </Container>
         <Container>
-          <Feature numbers={currentService.numbers || numbers} />
+          <Feature numbers={currentService.numbers || []} />
         </Container>
         <Container>
           <Work />

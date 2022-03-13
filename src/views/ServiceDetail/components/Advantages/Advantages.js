@@ -12,12 +12,25 @@ import reactIcon from '@iconify/icons-mdi/react';
 import flashAlertOutline from '@iconify/icons-mdi/flash-alert-outline';
 import tabletCellphone from '@iconify/icons-mdi/tablet-cellphone';
 import webIcon from '@iconify/icons-mdi/web';
-
+import earthArrowRight from '@iconify/icons-mdi/earth-arrow-right';
+import serverIcon from '@iconify/icons-mdi/server';
+import testTube from '@iconify/icons-mdi/test-tube';
+import domainIcon from '@iconify/icons-mdi/domain';
+import weatherCloudyArrowRight from '@iconify/icons-mdi/weather-cloudy-arrow-right';
+import desktopTower from '@iconify/icons-mdi/desktop-tower';
+import cogOutline from '@iconify/icons-mdi/cog-outline';
 const icons = {
   reactIcon,
   flashAlertOutline,
   tabletCellphone,
   webIcon,
+  earthArrowRight,
+  serverIcon,
+  testTube,
+  domainIcon,
+  weatherCloudyArrowRight,
+  desktopTower,
+  cogOutline,
 };
 
 const findTheIcon = (name) => {

@@ -44,7 +44,7 @@ const Process = ({ process }) => {
           align={'center'}
           sx={{ fontWeight: 700 }}
         >
-          Our process to find you a new job is fast
+          Our process to a high quality service is fast
         </Typography>
       </Box>
       <Box>

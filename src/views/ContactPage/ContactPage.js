@@ -30,9 +30,6 @@ const ContactPage = () => {
           <Form />
         </Container>
       </Box>
-      <Container>
-        <Newsletter />
-      </Container>
     </Main>
   );
 };

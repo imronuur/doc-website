@@ -10,7 +10,7 @@ import { NavItem, ObjectNavItem } from './components';
 const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
   const theme = useTheme();
   const { mode } = theme.palette;
-  const { services: companyServices, about: AboutPage, help: HelpPage } = pages;
+  const { about: AboutPage, help: HelpPage } = pages;
 
   return (
     <Box
@@ -23,30 +23,21 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
         display={'flex'}
         component="a"
         href="/"
-        title="theFront"
+        title="Silicon"
         width={{ xs: 100, md: 120 }}
       >
         <Box
           component={'img'}
           src={
             mode === 'light' && !colorInvert
-              ? 'https://assets.maccarianagency.com/the-front/logos/logo.svg'
-              : 'https://assets.maccarianagency.com/the-front/logos/logo-negative.svg'
+              ? 'https://res.cloudinary.com/imran6099/image/upload/v1647157847/Final_hawfop.png'
+              : 'https://res.cloudinary.com/imran6099/image/upload/v1647157847/Final_hawfop.png'
           }
           height={1}
           width={1}
         />
       </Box>
       <Box sx={{ display: { xs: 'none', md: 'flex' } }} alignItems={'center'}>
-        <Box marginLeft={4}>
-          <NavItem
-            title={'Services'}
-            id={'company-services'}
-            items={companyServices}
-            colorInvert={colorInvert}
-          />
-        </Box>
-
         <Box marginLeft={4}>
           <ObjectNavItem
             title={'About'}

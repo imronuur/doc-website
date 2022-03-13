@@ -13,7 +13,7 @@ import Container from 'components/Container';
 const mock = [
   {
     label: 'Phone',
-    value: '+252 61 7485460',
+    value: '+252 61 3999417',
     icon: (
       <svg
         width={20}
@@ -44,7 +44,7 @@ const mock = [
   },
   {
     label: 'Address',
-    value: 'Via Venini 33, 20147',
+    value: 'Mogadishu Baandir Somlia',
     icon: (
       <svg
         width={20}
@@ -124,7 +124,7 @@ const Contact = () => {
         marginHeight={0}
         marginWidth={0}
         scrolling="no"
-        src="https://maps.google.com/maps?width=100%&height=100%&hl=en&q=Milan&ie=UTF8&t=&z=14&iwloc=B&output=embed"
+        src="https://maps.google.com/maps?q=5%20Gen%20Cafe,%20Mogadishu&t=&z=13&ie=UTF8&iwloc=&output=embed"
         style={{
           minHeight: 300,
           filter:

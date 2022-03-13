@@ -13,7 +13,9 @@ const team = [
 const AboutPage = ({ team }) => {
   return <About team={team} />;
 };
-export async function getServerSideProps() {
+
+export async function getStaticProps() {
   return { props: { team: team } };
 }
+
 export default AboutPage;

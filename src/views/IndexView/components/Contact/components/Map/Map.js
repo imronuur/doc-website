@@ -35,7 +35,7 @@ const Map = () => {
           marginHeight={0}
           marginWidth={0}
           scrolling="no"
-          src="https://maps.google.com/maps?width=100%&height=100%&hl=en&q=Milan&ie=UTF8&t=&z=14&iwloc=B&output=embed"
+          src="https://maps.google.com/maps?q=5%20Gen%20Cafe,%20Mogadishu&t=&z=13&ie=UTF8&iwloc=&output=embed"
           style={{
             minHeight: 300,
             borderRadius: 8,
@@ -55,7 +55,7 @@ const Map = () => {
           >
             Call us:
           </Typography>
-          <Typography variant={'subtitle1'}>+39 34 111 222</Typography>
+          <Typography variant={'subtitle1'}>+252 61 3999417</Typography>
         </Grid>
         <Grid item xs={12} sm={6}>
           <Typography
@@ -65,7 +65,7 @@ const Map = () => {
           >
             Email us:
           </Typography>
-          <Typography variant={'subtitle1'}>hi@maccarianagency.com</Typography>
+          <Typography variant={'subtitle1'}>info@silicon.so</Typography>
         </Grid>
         <Grid item xs={12}>
           <Typography
@@ -76,7 +76,7 @@ const Map = () => {
             Address:
           </Typography>
           <Typography variant={'subtitle1'}>
-            Via E. Gola 4, Milan MI, Italy
+            Mogadishu Baandir Somalia
           </Typography>
         </Grid>
       </Grid>

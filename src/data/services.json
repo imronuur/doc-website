@@ -35,17 +35,17 @@
     "services": [
       {
         "title": "Custom API Integrations",
-        "icon": "reactIcon",
+        "icon": "serverIcon",
         "subtitle": "We can build a custom API to enhance your current off-the-shelf solution or integrate a third-party API that enables your software solution to seamlessly interface with other apps, devices, and business systems"
       },
       {
         "title": "Custom API Implementations",
-        "icon": "flashAlertOutline",
-        "subtitle": "Our Progressive Web Apps (PWA) will give a native-like performance from your browser"
+        "icon": "earthArrowRight",
+        "subtitle": "API integration services using REST, SOAP, XML, and RPC API protocols."
       },
       {
         "title": "Automated API Testing",
-        "icon": "tabletCellphone",
+        "icon": "testTube",
         "subtitle": "Our engineers and quality assurance (QA) specialists use automated unit testing, functional testing, and load testing best practices to check the performance & functionality of mission-critical business apps."
       }
     ]
@@ -58,13 +58,13 @@
     "services": [
       {
         "title": "Startup Business Cloud Setup",
-        "icon": "reactIcon",
-        "subtitle": "Unlike we used to develop web apps, the bring to the table new method for developing web apps, our Single Page Web Apps are fast, less than one second load time 0% refresh time, we increase your company performance with our SPA Web Systems."
+        "icon": "domainIcon",
+        "subtitle": "Our startup cloud package covers all your cloud needs to start your business."
       },
       {
         "title": "Cloud Migration",
-        "icon": "flashAlertOutline",
-        "subtitle": "Our Progressive Web Apps (PWA) will give a native-like performance from your browser"
+        "icon": "weatherCloudyArrowRight",
+        "subtitle": "We help you migrate your company from offline to the cloud world so you open your gates to new opportunities. "
       }
     ]
   },
@@ -76,12 +76,12 @@
     "services": [
       {
         "title": "Custom computer build",
-        "icon": "reactIcon",
+        "icon": "desktopTower",
         "subtitle": "Unlike we used to develop web apps, the bring to the table new method for developing web apps, our Single Page Web Apps are fast, less than one second load time 0% refresh time, we increase your company performance with our SPA Web Systems."
       },
       {
         "title": "IT products installation",
-        "icon": "flashAlertOutline",
+        "icon": "cogOutline",
         "subtitle": "Our Progressive Web Apps (PWA) will give a native-like performance from your browser"
       }
     ]

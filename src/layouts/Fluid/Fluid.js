@@ -75,8 +75,8 @@ const Fluid = ({
                 component={'img'}
                 src={
                   mode === 'light' && !colorInvert
-                    ? 'https://assets.maccarianagency.com/the-front/logos/logo.svg'
-                    : 'https://assets.maccarianagency.com/the-front/logos/logo-negative.svg'
+                    ? 'https://res.cloudinary.com/imran6099/image/upload/v1647157847/Final_hawfop.png'
+                    : 'https://res.cloudinary.com/imran6099/image/upload/v1647157847/Final_hawfop.png'
                 }
                 height={1}
                 width={1}

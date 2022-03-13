@@ -9,7 +9,7 @@ const SidebarNav = ({ pages }) => {
   const theme = useTheme();
   const { mode } = theme.palette;
 
-  const { services: companyServices, about: aboutPage, help: helpPage } = pages;
+  const { about: aboutPage, help: helpPage } = pages;
 
   return (
     <Box>
@@ -25,8 +25,8 @@ const SidebarNav = ({ pages }) => {
             component={'img'}
             src={
               mode === 'light'
-                ? 'https://assets.maccarianagency.com/the-front/logos/logo.svg'
-                : 'https://assets.maccarianagency.com/the-front/logos/logo-negative.svg'
+                ? 'https://res.cloudinary.com/imran6099/image/upload/v1647157847/Final_hawfop.png'
+                : 'https://res.cloudinary.com/imran6099/image/upload/v1647157847/Final_hawfop.png'
             }
             height={1}
             width={1}
@@ -34,9 +34,6 @@ const SidebarNav = ({ pages }) => {
         </Box>
       </Box>
       <Box paddingX={2} paddingY={2}>
-        <Box>
-          <NavItem title={'Services'} items={companyServices} />
-        </Box>
         <Box>
           <ObjectNavItem title={'About'} item={aboutPage} />
         </Box>

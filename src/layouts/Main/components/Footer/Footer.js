@@ -23,15 +23,15 @@ const Footer = () => {
             display={'flex'}
             component="a"
             href="/"
-            title="theFront"
+            title="Silicon"
             width={80}
           >
             <Box
               component={'img'}
               src={
                 mode === 'light'
-                  ? 'https://assets.maccarianagency.com/the-front/logos/logo.svg'
-                  : 'https://assets.maccarianagency.com/the-front/logos/logo-negative.svg'
+                  ? 'https://res.cloudinary.com/imran6099/image/upload/v1647157847/Final_hawfop.png'
+                  : 'https://res.cloudinary.com/imran6099/image/upload/v1647157847/Final_hawfop.png'
               }
               height={1}
               width={1}
@@ -49,26 +49,27 @@ const Footer = () => {
                 Home
               </Link>
             </Box>
+
             <Box marginTop={1} marginRight={2}>
               <Link
                 underline="none"
                 component="a"
-                href="/"
+                href="/about"
                 color="text.primary"
                 variant={'subtitle2'}
               >
-                Services
+                About US
               </Link>
             </Box>
             <Box marginTop={1} marginRight={2}>
               <Link
                 underline="none"
                 component="a"
-                href="/"
+                href="/contact-page"
                 color="text.primary"
                 variant={'subtitle2'}
               >
-                About US
+                Contact US
               </Link>
             </Box>
           </Box>
@@ -81,7 +82,7 @@ const Footer = () => {
           color="text.secondary"
           gutterBottom
         >
-          &copy; theFront. 2021, Maccarian. All rights reserved
+          &copy; Silicon. 2021, Somlia. All rights reserved
         </Typography>
         <Typography
           align={'center'}
