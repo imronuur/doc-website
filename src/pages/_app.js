@@ -18,6 +18,11 @@ export default function App({ Component, pageProps }) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+        <meta name="keywords" content="IT & Software Company" />
+        <meta name="keywords" content="Web Development" />
+        <meta name="keywords" content="API" />
+        <meta name="keywords" content="Cloud Engineering" />
+        <meta name="keywords" content="IT products" />
         <title>Silicon | IT & Software Partner</title>
       </Head>
       <Page>

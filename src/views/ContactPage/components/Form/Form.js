@@ -17,10 +17,7 @@ const validationSchema = yup.object({
     .min(2, 'Please enter a valid full name')
     .max(50, 'Please enter a valid full name')
     .required('Please specify your full name'),
-  message: yup
-    .string()
-    .trim()
-    .required('Please specify your message'),
+  message: yup.string().trim().required('Please specify your message'),
   email: yup
     .string()
     .trim()
@@ -28,7 +25,7 @@ const validationSchema = yup.object({
     .required('Email is required'),
 });
 
-const Form = () => {
+const Form = ({ handleSendEmail, loading, message }) => {
   const theme = useTheme();
   const isMd = useMediaQuery(theme.breakpoints.up('md'), {
     defaultMatches: true,
@@ -41,7 +38,7 @@ const Form = () => {
   };
 
   const onSubmit = (values) => {
-    return values;
+    handleSendEmail(values);
   };
 
   const formik = useFormik({
@@ -155,8 +152,9 @@ const Form = () => {
               type="submit"
               color="primary"
               size="large"
+              disabled={loading || message === 'Done!'}
             >
-              Send the question
+              {message ? message : 'Send the question'}
             </Button>
           </Grid>
         </Grid>

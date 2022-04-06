@@ -28,7 +28,7 @@ const mock = [
   },
   {
     label: 'Email',
-    value: 'customer@somsilicon.com',
+    value: 'info@silicon.so',
     icon: (
       <svg
         width={20}
@@ -124,7 +124,7 @@ const Contact = () => {
         marginHeight={0}
         marginWidth={0}
         scrolling="no"
-        src="https://maps.google.com/maps?q=5%20Gen%20Cafe,%20Mogadishu&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        src="https://www.google.com/maps/d/embed?mid=1HE33ZphN9osKBrtZ19XEQOCtZeE9UHUf&ehbc=2E312F"
         style={{
           minHeight: 300,
           filter:

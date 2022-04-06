@@ -1,12 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
-
+import axios from 'axios';
 import Main from 'layouts/Main';
 import Container from 'components/Container';
 import { Contact, Form, Hero, Newsletter } from './components';
 
 const ContactPage = () => {
+  const [loading, setLoading] = useState(false);
+  const [message, setMessage] = useState('');
+
+  const handleContact = async (v) => {
+    try {
+      setLoading(true);
+      const res = await axios.post(`http://localhost:9000/api/send-email`, {
+        user: v,
+      });
+      console.log(res);
+      setLoading(false);
+      setMessage('Done!');
+    } catch (error) {
+      console.log(error);
+      setLoading(false);
+    }
+  };
   const theme = useTheme();
 
   return (
@@ -27,7 +44,11 @@ const ContactPage = () => {
       <Contact />
       <Box bgcolor={'alternate.main'}>
         <Container>
-          <Form />
+          <Form
+            handleSendEmail={handleContact}
+            loading={loading}
+            message={message}
+          />
         </Container>
       </Box>
     </Main>

@@ -29,13 +29,10 @@ const validationSchema = yup.object({
     .trim()
     .email('Please enter a valid email address')
     .required('Email is required.'),
-  message: yup
-    .string()
-    .trim()
-    .required('Please specify your message'),
+  message: yup.string().trim().required('Please specify your message'),
 });
 
-const Form = () => {
+const Form = ({ handleSendEmail, loading, message }) => {
   const theme = useTheme();
 
   const initialValues = {
@@ -46,7 +43,7 @@ const Form = () => {
   };
 
   const onSubmit = (values) => {
-    return values;
+    handleSendEmail(values);
   };
 
   const formik = useFormik({
@@ -140,53 +137,21 @@ const Form = () => {
                 size="medium"
                 type="submit"
                 fullWidth
+                disabled={loading || message === 'Done!'}
               >
-                Submit
+                {message ? message : 'Submit'}
               </Button>
             </Grid>
             <Grid item xs={12}>
               <Divider />
             </Grid>
-            <Grid item container justifyContent={'center'} xs={12}>
-              <Box>
-                <Typography component="p" variant="body2" align="left">
-                  By clicking on "submit" you agree to our{' '}
-                  <Box
-                    component="a"
-                    href=""
-                    color={theme.palette.text.primary}
-                    fontWeight={'700'}
-                  >
-                    Privacy Policy
-                  </Box>
-                  ,{' '}
-                  <Box
-                    component="a"
-                    href=""
-                    color={theme.palette.text.primary}
-                    fontWeight={'700'}
-                  >
-                    Data Policy
-                  </Box>{' '}
-                  and{' '}
-                  <Box
-                    component="a"
-                    href=""
-                    color={theme.palette.text.primary}
-                    fontWeight={'700'}
-                  >
-                    Cookie Policy
-                  </Box>
-                  .
-                </Typography>
-              </Box>
-            </Grid>
+            <Grid item container justifyContent={'center'} xs={12}></Grid>
           </Grid>
         </form>
       </Box>
       <Box>
         <Typography color="text.secondary" align={'center'}>
-          We'll get back to you in 1-2 business days.
+          We'll get back to you in 24 business hour.
         </Typography>
       </Box>
     </Box>
