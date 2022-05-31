@@ -1,4 +1,8 @@
 const pages = {
+  projects: {
+    title: 'Projects',
+    href: '/projects',
+  },
   about: {
     title: 'About',
     href: '/about',

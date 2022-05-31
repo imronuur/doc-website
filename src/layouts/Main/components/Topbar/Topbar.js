@@ -10,7 +10,7 @@ import { NavItem, ObjectNavItem } from './components';
 const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
   const theme = useTheme();
   const { mode } = theme.palette;
-  const { about: AboutPage, help: HelpPage } = pages;
+  const { about: AboutPage, help: HelpPage, projects: ProjectsPage } = pages;
 
   return (
     <Box
@@ -38,6 +38,14 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
         />
       </Box>
       <Box sx={{ display: { xs: 'none', md: 'flex' } }} alignItems={'center'}>
+        <Box marginLeft={4}>
+          <ObjectNavItem
+            title={'Projects'}
+            id={'projects'}
+            item={ProjectsPage}
+            colorInvert={colorInvert}
+          />
+        </Box>
         <Box marginLeft={4}>
           <ObjectNavItem
             title={'About'}
